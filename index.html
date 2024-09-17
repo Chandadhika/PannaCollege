@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Responsive Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/ToC.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>PannaCollege</h1>
+        <nav class="nav">
+          <ul class="navItems">
+            <li>
+              <a href="./assets/pages/events.html">Events</a>
+            </li>
+            <li>
+              <a href="#မူလတန်း" onclick="loadPage('./assets/pages/မူလတန်း')">မူလတန်း</a>
+            </li>
+            <li>
+              <a href="#အငယ်တန်း" onclick="loadPage('./assets/pages/အငယ်တန်း')">အငယ်တန်း</a>
+            </li>
+            <li>
+              <a href="#အလတ်တန်း" onclick="loadPage('./assets/pages/အလတ်တန်း')"
+                >အလတ်တန်း</a
+              >
+            </li>
+            <li>
+              <a href="#အကြီးတန်း" onclick="loadPage('./assets/pages/အကြီးတန်း')">အကြီးတန်း</a>
+            </li>
+            <li>
+              <a href="#ဓမ္မာစရိယ" onclick="loadPage('./assets/pages/ဓမ္မာစရိယ')">ဓမ္မာစရိယ</a>
+            </li>
+            <li></li>
+              <a href="#သာမဏေကျော်" onclick="loadPage('./assets/pages/သာမဏေကျော်')">သာမဏေကျော်</a>
+            </li>
+            <li></li>
+              <a href="./assets/pages/Library/index.html">စာကြည့်တိုက်</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="main-content" class="main">
+        <!-- Include this section within the body of your HTML -->
+        <!-- Optional: Add this to make search results stand out -->
+        <div id="search-results" class="search-results"></div>
+
+        <!-- Initial content will always be here -->
+        <div>
+          <h2 class="section-title secondary-border">
+            Welcome to the Homepage
+          </h2>
+        </div>
+        <!-- <p>
+          This is the default content of the main area. Click the links to load
+          different content.
+        </p> -->
+
+        <!-- Steps -->
+        <section id="what-you-do" class="steps">
+          <div class="flex-row">
+            <h2 id="sectionHeader2" class="section-title secondary-border">
+              What You Do
+            </h2>
+          </div>
+          <div class="step">
+            <h3>Step 1.</h3>
+            <div class="step-info">
+              <div class="step-img">
+                <img src="./assets/images/step-1.svg" alt="" />
+              </div>
+              <div class="step-text">
+                <h4>Fill Out The Form Above</h4>
+                <p>You're already here, so why not?</p>
+              </div>
+            </div>
+          </div>
+          <div class="step">
+            <h3>Step 2.</h3>
+            <div class="step-info">
+              <div class="step-img">
+                <img src="./assets/images/step-2.svg" alt="" />
+              </div>
+              <div class="step-text">
+                <h4>Consult With One Of Our Trainers</h4>
+                <p>
+                  Are you here to build muscle, lose weight, or just feel good?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="step">
+            <h3>Step 3.</h3>
+            <div class="step-info">
+              <div class="step-img">
+                <img src="./assets/images/step-3.svg" alt="" />
+              </div>
+              <div class="step-text">
+                <h4>Get Running</h4>
+                <p>
+                  Hit the ground running (literally) once your trainer lays out
+                  your plan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="step">
+            <h3>Step 4.</h3>
+            <div class="step-info">
+              <div class="step-img">
+                <img src="./assets/images/step-4.svg" alt="" />
+              </div>
+              <div class="step-text">
+                <h4>See Results</h4>
+                <p>
+                  Bi-weekly checkins with your trainer will keep you focused
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="your-trainers">
+          <div class="flex-row">
+            <h2 class="section-title primary-border">Meet The Trainers</h2>
+          </div>
+
+          <div class="trainers">
+            <article class="trainer">
+              <img
+                src="./assets/images/trainer-1.jpg"
+                alt="Arron Stephens in his workout clothes, ready to pump iron"
+              />
+              <div class="trainer-bio">
+                <h3 class="trainer-name">Arron Stephens</h3>
+                <h4 class="trainer-role">Speed / Strength</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Sequi neque animi quo cupiditate commodi saepe culpa sed
+                  itaque velit maiores optio dolorem excepturi aperiam dolores,
+                  voluptatibus suscipit amet quis repellat!
+                </p>
+              </div>
+            </article>
+
+            <article class="trainer">
+              <img
+                src="./assets/images/trainer-2.jpg"
+                alt="Joanna Gill cooling off after a work out"
+              />
+              <div class="trainer-bio">
+                <h3 class="trainer-name">Joanna Gill</h3>
+                <h4 class="trainer-role">Endurance</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Sequi neque animi quo cupiditate commodi saepe culpa sed
+                  itaque velit maiores optio dolorem excepturi aperiam dolores,
+                  voluptatibus suscipit amet quis repellat!
+                </p>
+              </div>
+            </article>
+
+            <article class="trainer">
+              <img
+                src="./assets/images/trainer-3.jpg"
+                alt="Harry Smith wearing a headband and lifting comically small pink weights"
+              />
+              <div class="trainer-bio">
+                <h3 class="trainer-name">Harry "The Headband" Smith</h3>
+                <h4 class="trainer-role">Strength</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Sequi neque animi quo cupiditate commodi saepe culpa sed
+                  itaque velit maiores optio dolorem excepturi aperiam dolores,
+                  voluptatibus suscipit amet quis repellat!
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <!-- Table of Contents Floating Button -->
+        <div id="toc-container">
+          <button id="toc-button">
+            &#9776;
+            <!-- Icon for the button (hamburger menu style) -->
+          </button>
+          <div id="toc-list" class="hidden">
+            <!-- <h3>Table of Contents</h3> -->
+            <ul id="toc-items">
+              <!-- JavaScript will populate this with headings -->
+            </ul>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p>&copy; 2024 PannaCollege. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/ToC.js"></script>
+  </body>
+</html>
+
+<!-- 
+<section id="your-trainers">
+
+      <div class="trainers">
+        <article class="trainer">
+          <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Arron Stephens</h3>
+            <h4 class="trainer-role">Speed / Strength</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+          </div>
+        </article>
+
+        <article class="trainer">
+          <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a work out" />
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Joanna Gill</h3>
+            <h4 class="trainer-role">Endurance</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+            </div>
+          </article>
+
+        <article class="trainer">
+          <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Harry "The Headband" Smith</h3>
+            <h4 class="trainer-role">Strength</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  
+-->
